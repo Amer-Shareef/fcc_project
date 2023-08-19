@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1 id="title">Survey Form</h1>
+    <p id="description">Building a <strong>Survey Form</strong> for the <em>freeCodeCamp</em> project</p>
+    <form id="survey-form">
+        <div>
+            <label for="name" id="name-label">Name </label>
+            <input type="text" id="name" placeholder="Enter your name" required>
+        </div>
+        <div>
+            <label for="email" id="email-label">Email </label>
+            <input type="email" id="email" placeholder="Enter your Email" required>
+        </div>
+        <div>
+            <label for="number" id="number-label">Age (optional) </label>
+            <input type="number" min="10" max="120" id="number" placeholder="Age">
+        </div>
+        <div>
+            <p>What is currently your highest academic qualification?</p>
+            <select id="dropdown">
+                <option value="">Select Current Qualification</option>
+                <option value="primary">Primary School</option>
+                <option value="middle">Middle School</option>
+                <option value="high">High School</option>
+                <option value="bachelors">Bachelors</option>
+                <option value="masters">Masters</option>
+                <option value="phd">Ph.D</Ph></option>
+            </select>
+        </div>
+        <div>
+            <p>What is your current relationship status?</p>
+            <label for="single">Single<input name="r-status" id="single" value="single" type="radio" checked></label>
+            <label for="commited">Commited<input name="r-status" id="commited" value="commited" type="radio"></label>
+            <label for="married">Married<input name="r-status" id="married" value="married" type="radio"></label>
+        </div>
+        <div>
+            <p>What is your Ambition?</p>
+            <label for="engineer">Engineer<input name="ambition" id="engineer" value="engineer" type="checkbox"></label>
+            <label for="doctor">Doctor<input name="ambition" id="doctor" value="doctor" type="checkbox"></label>
+            <label for="lawyer">Lawyer<input name="ambition" id="lawyer" value="lawyer" type="checkbox"></label>
+            <label for="pilot">Pilot<input name="ambition" id="pilot" value="pilot" type="checkbox"></label>
+            <label for="entrepreneur">Entrepreneur<input name="ambition" id="entrepreneur" value="entrepreneur" type="checkbox"></label>
+            <label for="politian">Politian<input name="ambition" id="politian" value="politian" type="checkbox"></label>
+            <label for=""><input name="ambition" type="text" placeholder="Anything else 'Please Specify'"></label>
+        </div>
+        <div>
+            <p>Tell me about yourself</p>
+            <textarea name="bio" id="" cols="50" rows="10" placeholder="My dream is to..."></textarea>
+        </div>
+        <div>
+            <button id="submit" type="submit">Submit</button>
+            <button id="reset" type="reset">Clear</button>
+        </div>
+    </form>
+    <footer>
+        <p>Have a nice day</p>
+    </footer>
+</body>
+</html>

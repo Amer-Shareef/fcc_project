@@ -1,0 +1,50 @@
+body {
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    background-color: #0a0a23;
+    color: #e9e9cb;
+    font-size: 18px;
+}
+
+h1, p {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+form {
+    width: 75vw;
+    max-width: 650px;
+    min-width: 300px;
+    margin: 0 auto;
+    padding: 0;
+    background-color: #938ba1;
+    border:3px solid #e9e9cb;
+}
+
+div {
+    border: none;
+    padding: 2rem 0;
+    border-bottom: 3px solid #e9e9cb;
+    text-align: left;
+}
+
+label {
+    display: block;
+    align-items: center;
+    margin: 0.5rem 10px;
+    text-align: center;
+}
+
+input, textarea, select {
+    margin: 10px 2em;
+    width: 90%;
+    min-height: 2em;
+    background-color: #0a0a23;
+    border: 1px solid #0a0a23;
+    color: #e9e9cb;
+}
+
+footer {
+    padding: 1em 0;
+}
