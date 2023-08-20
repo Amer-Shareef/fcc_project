@@ -1,0 +1,56 @@
+@media (prefers-reduced-motion: no-preference) {
+    * {
+        scroll-behavior: smooth;
+    }
+}
+
+body {
+    font-size: 16px;
+    width: 100%;
+    background: #f5f6f7;
+    color: #1b1b32;
+    font-family: Helvetica;
+    margin: 0;
+}
+
+main {
+    height: 50px;
+}
+
+h1 {
+    color: #161634;
+    font-size: 2em;
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    margin: 10px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 1.6em;
+}
+
+img {
+    display: block;
+    margin: auto;
+}
+
+#image {
+    max-width: 100%;
+}
+
+#img-div {
+    text-align: center;
+    background-color: beige;
+    padding: 25px;
+}
+
+#tribute-info {
+    align-items: center;
+    width: 80%;
+    margin: 0 auto 10px auto;
+    max-width: 600px;
+}
